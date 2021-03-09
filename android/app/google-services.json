@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "693069165121",
+    "project_id": "actualmadlibraryapp",
+    "storage_bucket": "actualmadlibraryapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:693069165121:android:e272c8d6ea98a3ae990cc0",
+        "android_client_info": {
+          "package_name": "com.actual_mad_library_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "693069165121-kq9bjhlo172300tr4pvrprmea140kdcq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYHgz-kJB_yN5Q-312nag8S1eN69BGi1c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "693069165121-kq9bjhlo172300tr4pvrprmea140kdcq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
