@@ -88,8 +88,8 @@ class _LoginPageState extends State<LoginPage> {
             onPressed: () {
               print('button pressed');
               context.read<AuthenticationService>().signIn(
-                 emailController.text,
-                 passwordController.text,
+                 emailController.text.trim(),
+                 passwordController.text.trim(),
               );
             },
             child: Text(

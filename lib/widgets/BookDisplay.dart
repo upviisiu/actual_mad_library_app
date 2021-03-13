@@ -9,29 +9,28 @@ class BookDisplay extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build PEPW
     return Container(
       color: Colors.blue[100],
       child: Stack(
         children: [
           Image.network(book.image),
-          Text(
-            book.title,
-            style: TextStyle(
-              fontSize: 13,
-              foreground: Paint()
-                ..style = PaintingStyle.stroke
-                ..strokeWidth = 0
-                ..color = Colors.black,
-            ),
-          ),
-          Text(
-            book.title,
-            style: TextStyle(
-              fontSize: 13,
-              color: Colors.black,
-            ),
-          ),
+          // Text(
+          //   book.title,
+          //   style: TextStyle(
+          //     fontSize: 13,
+          //     foreground: Paint()
+          //       ..style = PaintingStyle.stroke
+          //       ..strokeWidth = 0
+          //       ..color = Colors.black,
+          //   ),
+          // ),
+          // Text(
+          //   book.title,
+          //   style: TextStyle(
+          //     fontSize: 13,
+          //     color: Colors.black,
+          //   ),
+          // ),
         ],
       ),
     );

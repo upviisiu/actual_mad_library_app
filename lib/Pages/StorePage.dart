@@ -1,6 +1,5 @@
 import 'package:actual_mad_library_app/Dependencies/Book.dart';
 import 'package:actual_mad_library_app/Dependencies/BookCollector.dart';
-import 'package:actual_mad_library_app/widgets/BookDisplay.dart';
 import 'package:actual_mad_library_app/widgets/BookGrid.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -16,11 +15,19 @@ class StorePage extends StatefulWidget {
 }
 
 class _StorePageState extends State<StorePage> {
+  String searchInput="mongodb";
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: Text("Store"),
+        actions: [
+          // IconButton(icon: Icon(Icons.search), onPressed: (){
+          //   List<Book> books = BookCollector.getBook("https://api.itbook.store/1.0/search/"+searchInput);
+          //   BookGrid(bookList: books,);
+          // }),
+        ],
       ),
       body: FutureBuilder(
           future: BookCollector.getBook("https://api.itbook.store/1.0/new"),

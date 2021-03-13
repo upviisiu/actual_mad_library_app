@@ -13,10 +13,8 @@ class BookGrid extends StatelessWidget{
       child: new GridView.count(
         shrinkWrap: true,
         crossAxisCount: 2,
-
         children: bookList.map((book) => BookDisplay(book)).toList(),
       ),
     );
   }
-  
 }

@@ -16,18 +16,16 @@ class _UserLastReadState extends State<UserLastRead> {
       appBar: AppBar(
 
         title: Text("Last Read"),
-        actions: [IconButton(icon: Icon(Icons.search), onPressed: null),
-          IconButton(icon: Icon(Icons.shopping_cart), onPressed: null),
-          IconButton(icon: Icon(Icons.menu), onPressed: null),
-          IconButton(icon: Icon(Icons.person), onPressed: null)],
 
-        //make function to perform search at some point KEKW, open shopping cart, and open the login menu
+        /*This was supposed to be a way to read pdfs from the api but a classmate
+        informed me that certain pdfs are hosted on the api's website and others
+        are 3rd party links to other pdfs, which means I didn't have enough time
+        to fully implement the feature
+        */
+
 
       ),
       body: Container(
-        width: 411,
-        height: 731,
-        color: Colors.black,
         child: null,
       ),
     );

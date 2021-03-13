@@ -1,7 +1,5 @@
-import 'package:actual_mad_library_app/Dependencies/BookCollector.dart';
 import 'package:actual_mad_library_app/Pages/StorePage.dart';
 import 'package:actual_mad_library_app/Pages/UserLibrary.dart';
-import 'package:actual_mad_library_app/widgets/HomeMenuItems.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
